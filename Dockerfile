@@ -1,9 +1,9 @@
 # Use a minimal image as parent
-FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk/openjdk8:alpine
 
 # Environment variables
-ENV TOMCAT_MAJOR=8 \
-    TOMCAT_VERSION=8.5.37 \
+ENV TOMCAT_MAJOR=9 \
+    TOMCAT_VERSION=9.0.29 \
     CATALINA_HOME=/opt/tomcat
 
 # init
